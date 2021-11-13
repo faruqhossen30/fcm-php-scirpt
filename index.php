@@ -3,7 +3,7 @@
 function notify($to, $data)
 {
 
-    $api_key = "AAAAN1ZC7h4:APA91bH1LbHWfJHOda-WPoFbcluxcNsYQkG330e0bRlqxeCVkSfKZfnWvEWlde9dM7dzj397M9XERxktvFa4LdlsE9WzsYmSi60bvN1RH-lgLZ1QHNsbvIPEcGCbs5AziRENjHF8Y8OL";
+    $api_key = "SERVER_KEY"; // Cloud message Server key Token
 
     $url = "https://fcm.googleapis.com/fcm/send";
     $fields = json_encode(array('to' => $to, 'notification' => $data));
